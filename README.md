@@ -2,11 +2,11 @@
 
 This is a tensorflow - with `Keras` backend - implementation of the Transformer Layer with the smoothness constraint that was presented in 2D at:
 
-> Shu, Z., Sahasrabudhe, M., Alp Guler, R., Samaras, D., Paragios, N. and Kokkinos, I., 2018. Deforming autoencoders: Unsupervised disentangling of shape and appearance. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 650-665).
+> Shu, Z., Sahasrabudhe, M., Alp Guler, R., Samaras, D., Paragios, N. and Kokkinos, I., 2018. Deforming autoencoders: Unsupervised disentangling of shape and appearance. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 650-665). ([paper](https://link.springer.com/chapter/10.1007/978-3-030-01249-6_40), [pre-print](https://arxiv.org/abs/1806.06503))
 
 and in 3D at:
 
-> Stergios, C., Mihir, S., Maria, V., Guillaume, C., Marie-Pierre, R., Stavroula, M. and Nikos, P., 2018. Linear and deformable image registration with 3d convolutional neural networks. In Image Analysis for Moving Organ, Breast, and Thoracic Images (pp. 13-22). Springer, Cham.
+> Stergios, C., Mihir, S., Maria, V., Guillaume, C., Marie-Pierre, R., Stavroula, M. and Nikos, P., 2018. Linear and deformable image registration with 3d convolutional neural networks. In Image Analysis for Moving Organ, Breast, and Thoracic Images (pp. 13-22). Springer, Cham. ([paper](https://link.springer.com/chapter/10.1007/978-3-030-00946-5_2), [pre-print](https://arxiv.org/abs/1809.06226))
 
 Please cite the aforementioned publications if you use this code. In case of any questions, please do not hesitate to contact us.
 
