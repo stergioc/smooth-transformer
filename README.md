@@ -4,7 +4,7 @@ This is a tensorflow - with `Keras` backend - implementation of the Transformer 
 
 > Shu, Z., Sahasrabudhe, M., Alp Guler, R., Samaras, D., Paragios, N. and Kokkinos, I., 2018. Deforming autoencoders: Unsupervised disentangling of shape and appearance. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 650-665). ([paper](https://link.springer.com/chapter/10.1007/978-3-030-01249-6_40), [pre-print](https://arxiv.org/abs/1806.06503))
 
-> Vakalopoulou, M., Christodoulidis, S., Sahasrabudhe, M., Mougiakakou, S. and Paragios, N., 2019, July. Image Registration of Satellite Imagery with Deep Convolutional Neural Networks. In IGARSS 2019-2019 IEEE International Geoscience and Remote Sensing Symposium (pp. 4939-4942). IEEE. ([paper](https://ieeexplore.ieee.org/document/8898220),[pre-print](https://hal.inria.fr/hal-02422555/document))
+> Vakalopoulou, M., Christodoulidis, S., Sahasrabudhe, M., Mougiakakou, S. and Paragios, N., 2019, July. Image Registration of Satellite Imagery with Deep Convolutional Neural Networks. In IGARSS 2019-2019 IEEE International Geoscience and Remote Sensing Symposium (pp. 4939-4942). IEEE. ([paper](https://ieeexplore.ieee.org/document/8898220), [pre-print](https://hal.inria.fr/hal-02422555/document))
 
 and in 3D at:
 
