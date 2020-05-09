@@ -1,6 +1,6 @@
 # Tensorflow Layer for Joint Linear and Deformable Registration 
 
-This is a tensorflow - with `Keras` backend - implementation of the Transformer Layer with the smoothness constraint that was presented in 2D at:
+This is a tensorflow implementation of the Transformer Layer with the smoothness constraint that was presented in 2D at:
 
 > Shu, Z., Sahasrabudhe, M., Alp Guler, R., Samaras, D., Paragios, N. and Kokkinos, I., 2018. Deforming autoencoders: Unsupervised disentangling of shape and appearance. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 650-665). ([paper](https://link.springer.com/chapter/10.1007/978-3-030-01249-6_40), [pre-print](https://arxiv.org/abs/1806.06503))
 
