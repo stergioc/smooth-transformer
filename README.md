@@ -16,18 +16,16 @@ Please cite the aforementioned publications if you use this code. In case of any
 
 This code was tested on a Linux machine with Ubuntu (16.04.4 LTS) using the following setup:
 
-- CUDA (9.0)
-- CUDNN (v7)
-- python (3.5.2)
-    * tensorflow (1.8.0)
-    * keras (2.1.6)
-    * matplotlib (2.2.2)
+- CUDA (10.1)
+- python (3.6.9)
+    * tensorflow (2.1.0)
+    * matplotlib (3.2.1)
 
 ## How to use:
 
 In order to excecute the example scripts you can run the following:
 ```
-pip install -r requirements{-gpu}.txt
+pip install -r requirements.txt
 python example-2d.py
 python example-3d.py
 ```
@@ -47,13 +45,17 @@ or
 #### Arguments 
 - **maxgrad:** The maximum deformation among consecutive pixels (Should be set to 2 or more).
 
-The inputs and outputs of this layer are tensorflow tensors. Zero weight and bias initialization is sugested for the layers that regress the affine and deformable deformations. This would initiate the training progress from an identity transformation instead of a random one. A logistic growth function (f) is applied internally and maps the deformable gradients to positive values within the range [0, maxgrad] while 0 is mapped to 1. After this step the integration along the different axis is performed. Thus, the parameter `maxgrad` controls the maximum distance among consecutive pixels in the deformed image.
+The inputs and outputs of this layer are tensorflow tensors. Zero weight and bias initialization is sugested for the layers that regress the affine and deformable deformations. This would initiate the training progress from an identity transformation instead of a random one. A logistic growth function (f) is applied internally and maps the deformable gradients to positive values within the range [0, maxgrad] while 0 is mapped to 1. After this step the integration along the different axis is performed as well as a normalization. Thus, the parameter `maxgrad` controls the maximum distance among consecutive pixels in the deformed image.
 
 ## Output
 
-Example of the output of the `example-2d.py` script (result only after a single training epoch):
+Example of the output of the `example-2d.py` script (result after few training epochs):
 
 ![](example-2d-output.png)
+
+Example of the output of the `example-3d.py` script (result after few training epochs, simple tilling and padding was used to generate a 3D mnist):
+
+![](example-3d-output.png)
 
 
 ## Note

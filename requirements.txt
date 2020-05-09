@@ -1,3 +1,2 @@
-Keras==2.1.6
-tensorflow>=1.12.1
-matplotlib==2.2.2
+tensorflow_gpu==2.1.0
+matplotlib==3.2.1
